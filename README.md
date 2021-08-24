@@ -1,11 +1,11 @@
 # DNSC6301-Group-23
 ### Basic Information
 
-* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu`
-* **Model date**: August, 2021
+* **Person or organization developing model**: Charles Bloomer, `charlesbloomer@gwu.edu`, Rui Cheng, `ruicheng@gwu.edu`, Manu Sharma, `manusharma@gwu.edu`
+* **Model date**: August 23, 2021
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [DNSC_6301_Example_Project.ipynb](DNSC_6301_Example_Project.ipynb)
+* **Model implementation code**: DNSC6301_Group_23.ipynb 
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
@@ -30,13 +30,36 @@
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
+### Evaluation Data:
 * **Source of training data**: GWU Blackboard, email `jphall@gwu.edu` for more information
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
 * **Number of rows in training and validation data**:
   * Training rows: 15,000
   * Validation rows: 7,500
 
-### Test Data
+### Test Data:
 * **Source of test data**: GWU Blackboard, email `jphall@gwu.edu` for more information
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
+
+### Model details:
+* **Columns used as inputs in the final model
+* **Column(s) used as target(s) in the final model
+* **Type of model
+* **Software used to implement the model
+* **Version of the modeling software
+* **Hyperparameters or other settings of your model
+
+### Quantitative analysis:
+* **Metrics used to evaluate your final model
+* **State the final values of the metrics for all data: training, validation, and test data
+* **Provide any plots related to your data or final model -- be sure to label the plots!
+
+### Ethical considerations:
+* **Describe potential negative impacts of using your model:
+■ Math or software problems
+■ Real-world risks: who, what, when or how
+* **Describe potential uncertainties relating to the impacts of using your model:
+■ Math or software problems
+■ Real-world risks: who, what, when or how?
+* **Describe any unexpected or results
