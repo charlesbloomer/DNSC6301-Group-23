@@ -43,23 +43,27 @@
 * **State any differences in columns between training and test data**: None
 
 ### Model details:
-* **Columns used as inputs in the final model
-* **Column(s) used as target(s) in the final model
-* **Type of model
-* **Software used to implement the model
-* **Version of the modeling software
-* **Hyperparameters or other settings of your model
+* **Describe potential uncertainties relating to the impacts of using your model**:
+* **Columns used as inputs in the final model**: 'LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'
+* **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT' 
+* **Type of model**: Decision tree
+* **Software used to implement the model**: Google Colab
+* **Version of the modeling software**: 1.0
+* **Hyperparameters or other settings of your model**: 
 
 ### Quantitative analysis:
-* **Metrics used to evaluate your final model
-* **State the final values of the metrics for all data: training, validation, and test data
-* **Provide any plots related to your data or final model -- be sure to label the plots!
+* **Metrics used to evaluate your final model**: AUC 
+* **State the final values of the metrics for all data: training, validation, and test data**: 
+*  * Training value: 0.78230
+*  * Validation value: 0.757357
+*  * Test value: 0.7407
+* **Provide any plots related to your data or final model -- be sure to label the plots!**:
 
 ### Ethical considerations:
-* **Describe potential negative impacts of using your model:
+* **Describe potential negative impacts of using your model**:
 ■ Math or software problems
-■ Real-world risks: who, what, when or how
-* **Describe potential uncertainties relating to the impacts of using your model:
+■ The hispanic-to-white AIR could jump to more generalized conclusions about race or exclude other races from the model. The data in the model could show that race is tied too closely with other variables like sex, marriage, etc. and may not be as considerate of any outlier data that would show a different conclusion.
+* **Describe potential uncertainties relating to the impacts of using your model**:
 ■ Math or software problems
-■ Real-world risks: who, what, when or how?
+■ A major uncertainty regarding the impact of using the model is how it can display whether or not Hispanic people in the data set would be able to get a loan. This data model can’t be used as an all-inclusive way to show correlation between Hispanic and/or white people getting a loan.
 * **Describe any unexpected or results
