@@ -57,7 +57,8 @@
   * Training value: 0.78230
   * Validation value: 0.757357
   * Test value: 0.7407
-* **Provide any plots related to your data or final model -- be sure to label the plots!**:
+* **Provide any plots related to your data or final model -- be sure to label the plots!**:![image](https://user-images.githubusercontent.com/89318472/131156220-31f7e535-fa40-49e2-a181-0a781362fb4f.png)
+
 
 ### Ethical considerations:
 * **Describe potential negative impacts of using your model**:
