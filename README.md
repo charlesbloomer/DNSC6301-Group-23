@@ -77,7 +77,7 @@
   * Math or software problems: The data set used for the model is an example of poor data set for building models. The model is created as a project submission on the provided data and shall not use it for practice. It only has a small number of customers and, all the signal is one variable, PAY_0.
   * Real-world risks: A major uncertainty regarding the impact of using the model is how it can display whether or not Hispanic people in the data set would be able to get a loan. This data model can’t be used as an all-inclusive way to show correlation between Hispanic and/or white people getting a loan.
 * **Describe any unexpected or results**:
-  * This model cannot fix the bias. It can only remediate it, or to be specific, increase the tolerance with a higher estimated probability. Only by fix the calculation of "phat" can we fix the bias problem of the model.
+  * This model cannot fix the bias. It can only remediate it, or to be specific, increase the tolerance with a higher estimated probability. Only by fixing the calculation of "phat" can we fix the bias problem of the model.
   * The model results can be significantly different with different seeds. This is probably because the dataset is not big enough and the importance of "PAY_0" is way higher than the rest of 18 variables. Below are some examples:
 
 | **Seed** | 13579 | 24680| 12345|
