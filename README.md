@@ -57,8 +57,17 @@
   * Training value: 0.78230
   * Validation value: 0.757357
   * Test value: 0.7407
-* **Provide any plots related to your data or final model -- be sure to label the plots!**:![image](https://user-images.githubusercontent.com/89318472/131156220-31f7e535-fa40-49e2-a181-0a781362fb4f.png)
-
+* **Provide any plots related to your data or final model -- be sure to label the plots!**:
+#### histograms
+<br />![image](https://user-images.githubusercontent.com/89318472/131156406-969f2612-a75a-41ce-b256-310cacc1e829.png)
+#### Correlation Heatmap
+<br />![image](https://user-images.githubusercontent.com/89318472/131156470-80afc3b9-2bfd-42db-891f-1a891cfa12aa.png)
+#### Tree depth vs. training and validation AUC 
+<br />![image](https://user-images.githubusercontent.com/89318472/131156632-acb5b072-7ec8-4047-afe8-7dc6c40c813d.png)
+#### Variable importances
+<br />![image](https://user-images.githubusercontent.com/89318472/131156689-05385ae6-1f37-44e6-a144-1f137fc696ec.png)
+#### Tree depth vs. training and validation AUC and AIR
+<br />![image](https://user-images.githubusercontent.com/89318472/131156712-1b68b411-ae05-4b42-bc6d-a59d0070e23a.png)
 
 ### Ethical considerations:
 * **Describe potential negative impacts of using your model**:
@@ -68,4 +77,11 @@
   * Math or software problems: The data set used for the model is an example of poor data set for building models. The model is created as a project submission on the provided data and shall not use it for practice. It only has a small number of customers and, all the signal is one variable, PAY_0.
   * Real-world risks: A major uncertainty regarding the impact of using the model is how it can display whether or not Hispanic people in the data set would be able to get a loan. This data model can’t be used as an all-inclusive way to show correlation between Hispanic and/or white people getting a loan.
 * **Describe any unexpected or results**:
-  * 
+  * This model cannot fix the bias. It can only remediate it, or to be specific, increase the tolerance with a higher estimated probability. Only by fix the calculation of "phat" can we fix the bias problem of the model.
+  * The model results can be significantly different with different seeds. This is probably because the dataset is not big enough and the importance of "PAY_0" is way higher than the rest of 18 variables. Below are some examples:
+
+| **Seed** | 13579 | 24680| 12345|
+| ---- | ------------- | ---------------- | ---------- |
+|**hispanic-to-white AIR**| 0.75 | 0.88 | 0.76 |
+| **black-to-white AIR** | 0.79 | 0.85 | 0.82 |
+| **better cutoff** | 0.16 | 0.19 | 0.18
