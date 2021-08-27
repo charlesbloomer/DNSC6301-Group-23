@@ -54,17 +54,17 @@
 ### Quantitative analysis:
 * **Metrics used to evaluate your final model**: AUC 
 * **State the final values of the metrics for all data: training, validation, and test data**: 
-*  * Training value: 0.78230
-*  * Validation value: 0.757357
-*  * Test value: 0.7407
+  * Training value: 0.78230
+  * Validation value: 0.757357
+  * Test value: 0.7407
 * **Provide any plots related to your data or final model -- be sure to label the plots!**:
 
 ### Ethical considerations:
 * **Describe potential negative impacts of using your model**:
-* ■ Math or software problems: The model is "underspecified" and is likely not to perform well in real-world practice. Changing the random seed of the model strongly affects the performance and results in an AIR higher than 0.8.
-* ■ Real-world risks: The hispanic-to-white AIR could jump to more generalized conclusions about race or exclude other races from the model. The data in the model could show that race is tied too closely with other variables like sex, marriage, etc. and may not be as considerate of any outlier data that would show a different conclusion.
+  * Math or software problems: The model is "underspecified" and is likely not to perform well in real-world practice. Changing the random seed of the model strongly affects the performance and results in an AIR higher than 0.8.
+  * Real-world risks: The hispanic-to-white AIR could jump to more generalized conclusions about race or exclude other races from the model. The data in the model could show that race is tied too closely with other variables like sex, marriage, etc. and may not be as considerate of any outlier data that would show a different conclusion.
 * **Describe potential uncertainties relating to the impacts of using your model**:
-* ■ Math or software problems: The data set used for the model is an example of poor data set for building models. The model is created as a project submission on the provided data and shall not use it for practice. It only has a small number of customers and, all the signal is one variable, PAY_0.
-* ■ Real-world risks: A major uncertainty regarding the impact of using the model is how it can display whether or not Hispanic people in the data set would be able to get a loan. This data model can’t be used as an all-inclusive way to show correlation between Hispanic and/or white people getting a loan.
+  * Math or software problems: The data set used for the model is an example of poor data set for building models. The model is created as a project submission on the provided data and shall not use it for practice. It only has a small number of customers and, all the signal is one variable, PAY_0.
+  * Real-world risks: A major uncertainty regarding the impact of using the model is how it can display whether or not Hispanic people in the data set would be able to get a loan. This data model can’t be used as an all-inclusive way to show correlation between Hispanic and/or white people getting a loan.
 * **Describe any unexpected or results**:
-* 
+  * 
