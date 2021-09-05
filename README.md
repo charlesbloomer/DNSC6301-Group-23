@@ -75,7 +75,7 @@
 <br />![image](https://user-images.githubusercontent.com/89318472/131156712-1b68b411-ae05-4b42-bc6d-a59d0070e23a.png)
 #### Table: Tree depth vs. training and validation AUC and AIR
 #### Identify the best tree depth: 5
-#### Although validation AUC is only 0.06% smaller than the one with tree depth of 6, the Hispanic-to-White AIR is 0.88% greater than the one with tree depth of 6 which is observable.
+#### Although validation AUC is only 0.06% smaller than the one with tree depth of 6, the Hispanic-to-White AIR is 0.88% greater than the one with tree depth of 6, which can be observed. That is why we choose 5 as the best tree depth.
 <br />![image](https://user-images.githubusercontent.com/89318472/132132973-fa03b478-d54e-4343-8a55-0feb0a223133.png)
 
 
