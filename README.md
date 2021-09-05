@@ -74,7 +74,9 @@
 #### Graph: Tree depth vs. training and validation AUC and AIR
 <br />![image](https://user-images.githubusercontent.com/89318472/131156712-1b68b411-ae05-4b42-bc6d-a59d0070e23a.png)
 #### Table: Tree depth vs. training and validation AUC and AIR
+
 <br />![image](https://user-images.githubusercontent.com/89318472/132133974-60ff2616-f66c-472d-b6ec-85528e27aed9.png)
+<br /> The best tree depth we've chosen: 6
 
 
 
