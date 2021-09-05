@@ -71,8 +71,11 @@
 <br />![image](https://user-images.githubusercontent.com/89318472/131156632-acb5b072-7ec8-4047-afe8-7dc6c40c813d.png)
 #### Variable importances
 <br />![image](https://user-images.githubusercontent.com/89318472/131156689-05385ae6-1f37-44e6-a144-1f137fc696ec.png)
-#### Tree depth vs. training and validation AUC and AIR
+#### Graph: Tree depth vs. training and validation AUC and AIR
 <br />![image](https://user-images.githubusercontent.com/89318472/131156712-1b68b411-ae05-4b42-bc6d-a59d0070e23a.png)
+#### Table: Tree depth vs. training and validation AUC and AIR
+<br />![image](https://user-images.githubusercontent.com/89318472/132132921-2247b869-4afd-4b71-be02-ad0270ae2771.png)
+#### The best tree depth: 5
 
 ### Ethical considerations:
 * **Describe potential negative impacts of using your model**:
